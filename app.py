@@ -2,10 +2,12 @@ from tkinter import *
 
 root = Tk()
 
-myLabel1 = Label(root, text="Hello CodeWars")
-myLabel2 = Label(root, text="Hello LeetCode")
+root.geometry("500x250")
 
-myLabel1.grid(row=0, column=0)
-myLabel2.grid(row=1, column=1)
+myLabel = Label(root, text="Hello GitHub!")
+myButton = Button(root, text="Click")
+
+myLabel.pack(pady=30)
+myButton.pack(pady=30)
 
 root.mainloop()
