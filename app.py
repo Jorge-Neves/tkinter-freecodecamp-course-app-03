@@ -11,7 +11,8 @@ myLabel = Label(root, text=labelContent)
 
 
 def change_text():
-    labelContent = "Updated Text!"
+    myLabel.config(text="Updated Text!")
+    myButton.config(state=DISABLED)
 
 
 myButton = Button(root, text="Click", command=change_text)
