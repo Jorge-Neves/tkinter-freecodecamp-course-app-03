@@ -11,7 +11,7 @@ myLabel = Label(root, text=labelContent)
 
 
 def change_text():
-    global labelContent = "Updated Text!"
+    labelContent = "Updated Text!"
 
 
 myButton = Button(root, text="Click", command=change_text)
